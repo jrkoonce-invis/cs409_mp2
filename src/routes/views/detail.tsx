@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router";
 import axios from 'axios';
 
@@ -24,7 +24,7 @@ const DetailView = () => {
 
     useEffect(() => {
         setLoading(true);
-        fetchPokemonInfo(Number(id));
+        fetchPokemonInfo(Number(currentId));
     }, [currentId]);
 
     return (
