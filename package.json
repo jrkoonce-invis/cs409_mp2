@@ -1,6 +1,7 @@
 {
   "name": "mp2",
   "version": "0.1.0",
+  "homepage": "https://jrkoonce-invis.github.io/cs409_mp2",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
