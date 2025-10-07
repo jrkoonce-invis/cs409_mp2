@@ -4,7 +4,6 @@ import PokemonDatabase from "./routes/PokeDatabase";
 import GalleryView from "./routes/views/gallery";
 import ListView from "./routes/views/list";
 import DetailView from "./routes/views/detail";
-import "./app.css";
 
 function App() {
   return (
